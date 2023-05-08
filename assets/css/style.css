@@ -1,0 +1,28 @@
+section{
+    background-color: #eee;
+}
+
+.gradient-custom-2 {
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+.img {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO7BQ1CIu2-_NakSOgIqpAHLtIBkisaIM-XTZYmeV3&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: content-box;
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
